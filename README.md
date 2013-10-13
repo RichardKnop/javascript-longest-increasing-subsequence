@@ -1,7 +1,7 @@
-javascript-depth-first-search
-=============================
+javascript-longest-increasing-subsequence
+=========================================
 
-My take on depth-first search algorithm
+Given an array what is the longest contiguous increasing subsequence of elements?
 
 ```
 npm install
