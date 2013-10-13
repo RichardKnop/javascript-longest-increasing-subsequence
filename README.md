@@ -1,4 +1,12 @@
-javascript-longest-increasing-subsequence
-=========================================
+javascript-depth-first-search
+=============================
 
-Given an array what is the longest contiguous increasing subsequence of elements?
+My take on depth-first search algorithm
+
+```
+npm install
+grunt install
+grunt connect
+```
+
+And you can use the interface I created to test my algorithm :)
