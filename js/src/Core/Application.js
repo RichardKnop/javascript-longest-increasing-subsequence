@@ -10,7 +10,7 @@ define(["Core/Algorithm"], function (Algorithm) {
             document.getElementById("calculate").addEventListener("click", function () {
                 var input = document.getElementById("array").value,
                     sequence = input.split(",").map(function (single) {
-                        return single.replace(" ", "");
+                        return parseInt(single.replace(" ", ""), 10);
                     }),
                     resultEl = document.getElementById("result"),
                     result;

@@ -4,9 +4,9 @@ define(["js/src/Core/Algorithm"], function (Algorithm) {
 
     module("Core/Algorithm");
 
-    test("Test that algorithm finds the longest increasing subsequence", function () {
+    test("Test the algorithm finds the longest contiguous increasing subsequence", function () {
         var algorithm = new Algorithm();
-        algorithm.setSequence([0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]);
-        deepEqual(algorithm.findLongestIncreasingSubsequence(), [0, 2, 6, 9, 13, 15]);
+        algorithm.setSequence([1, 2, 0, 5, -5, 14, 27, 97, 3, 6, 9, 10, 100, 44, -22]);
+        deepEqual(algorithm.findLongestIncreasingSubsequence(), [3, 6, 9, 10, 100]);
     });
 });
